@@ -1,0 +1,11 @@
+l=[5,6,7,"hello",'jk',89]
+b=[67,8,9,0]
+print(l)
+l.append(90)
+print(l)
+l.append(b)
+print(l)
+l.insert(2,78)
+print(l)
+l.extend(b)
+print(l)

@@ -1,0 +1,12 @@
+# DECORATOR-->DECORATOR are used to  modify the function
+def greet(fx):
+    def abc():
+        print("Hello very Good Morning!") 
+        fx()
+        print("Thnk you for using this function")
+    return abc
+@greet
+def hello():
+    print("Hello How are you")
+
+hello()
